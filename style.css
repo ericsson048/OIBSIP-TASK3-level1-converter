@@ -1,0 +1,96 @@
+body{
+    width: 100%;
+    height: 90vh;
+}
+section{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+h1{
+    margin: 5px;
+}
+.Converter{
+    width: 40%;
+    height: 300px;
+    background-color: rgba(31, 32, 32, 0.562);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border-radius: 10px;
+
+}
+.res{
+    width: 90%;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: start;
+}
+.res label{
+    font-size: 1.5rem;    
+}
+
+button{
+    width: 50%;
+    padding: 5px 0;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-size: 1rem;
+    background-color: #fff;
+    margin-top: 10px;
+    cursor: pointer;
+}
+button:active{
+    background-color: rgb(112, 166, 236);
+    transform: scale(0.8);
+}
+#result{
+    width: 100%;
+    height: 40px;
+    border: 1px solid  black;
+    text-align: start;
+    margin: 0;
+    border-radius: 10px;
+    background-color: rgb(125, 124, 124);
+    text-align: start;
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    box-shadow: inset -3px -3px 5px rgb(48, 48, 48), inset 3px 3px 5px rgb(50, 50, 50);
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 100%;
+    margin-right: 5px;
+}
+.input label{
+    font-size: 1.3rem;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+#temperature, #type{
+    width: 100%;
+    height:  30px;
+    border: none ;
+    background:  white;
+    font-size: 20px;
+    border-bottom:  2px solid black;
+}
+#temperature, #type:focus {
+    outline: none;
+}
